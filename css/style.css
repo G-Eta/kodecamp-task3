@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.container{
+    width: 80%;
+    margin: auto;
+    height:100vh;
+    font-family: 'Manrope', sans-serif;
+    
+}
+
+#main1{
+    display: flex;
+    
+}
+#text{
+    padding-top: 160px;
+    margin-right: 200px;
+    height: 20%;
+}
+#quotes{
+    padding-top: 80px;
+}
+#main1 p{
+    padding-top: 20px;
+}
+#numeric{
+    display: flex;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+#main1 #text p{
+    font-size: 14px;
+    color: #1E1B1B;
+    opacity: 0.6;
+  
+
+}
+.container #text{
+    width:55%;
+}
+.container #quotes{
+    width:45%;
+}
+.cont2{
+    background-color: #F2F2F2;
+    
+    
+}
+#quotes #numeric h4{
+    padding-top: 20px;
+    padding-left: 14px;
+    font-size: 24px;
+    
+}
+#quotes p{
+    padding-left: 88px;
+    padding-top: -30px;
+    color: #1E1B1B;
+    opacity: 0.6;
+    
+}
+.trial{
+    margin-top: -30px;
+}
+.vertical-line{
+    border-left: 2px dotted #FF6433;
+    height: 45px;
+    margin-left: 9%;
+    margin-top: -35px;
+    margin-bottom: 20px;
+}
+.head2{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 22px;
+}.cont2 h2{
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.flex-aligned{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 15px;
+}
+.about-box{
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 180px;
+    width: 180px;
+    text-align: center;
+    background-color: #FFFFFF;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    color: black;
+}
+.flex-aligned2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    
+
+}
+.flex{
+    display: flex;
+}
+.flex-aligned .flex .about-box p{
+    padding-top: 8px;
+}
+.flex-aligned2 .flex .about-box p{
+    padding-top: 8px;
+}
+.about-box:hover{
+    background-color: #FF6433;
+    color: white;
+    font-weight: bold;
+}
+.select{
+    background-color: #FF6433;
+    color: white;
+    font-weight: bold;}
+
+.learn{
+    margin: auto;
+    width: 65%;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+.learn a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.learn a:hover{
+    color: #FF6433;
+}
+#contact{
+    background-color: #F2F2F2;
+    padding-bottom: 8%;
+    padding-top: 40px;
+}
+.contact-pt{
+    background: url(/img/car.png);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 40vh;
+}
+.contact-pt2{
+    background: url(/img/jumper.png);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 40vh;
+}
+.cont-flex{
+    margin-left: 40%;
+    background-color: #FF6433;
+    height: 40vh;
+    width: 30vw;
+}
+.flex-text{
+    padding-top: 60px;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    font-size: 24px;
+    color: white;
+}
+.rate{
+    width: 80%;
+    margin: 0 auto;
+}
+.rating{
+    margin-top: 5%;
+}
+.rating-content{
+    width: 80%;
+    margin:auto;
+    justify-content: space-between;
+}
+.rat-value{
+    font-size: 48px;
+    color: #661CE7;
+    font-weight: bold;
+}
+.rat-value:hover{
+    color: #FF6433;
+}
+.brands h2{
+    font-size: 44px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+
+.brand-part{
+    width: 75%;
+}
